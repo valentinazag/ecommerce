@@ -48,7 +48,7 @@ src/main/java/com/techlab/ecommerce/
 `DELETE http://localhost:8080/products/{id}`
 
 
-### Cateogories
+### Categories
 `GET http://localhost:8080/categories`
 
 `POST http://localhost:8080/categories`
