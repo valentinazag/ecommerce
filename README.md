@@ -60,7 +60,7 @@ src/main/java/com/techlab/ecommerce/
 }
 ```
 `PUT http://localhost:8080/categories/{id}`
--Example:
+- Example:
 ```json
 {
     "name": "Sweets",
