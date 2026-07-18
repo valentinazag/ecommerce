@@ -27,22 +27,24 @@ GET http://localhost:8080/products
 
 POST http://localhost:8080/products
 - Example:
+```json
 {
     "name": "Alfajor",
     "price": 800.0,
     "stock": 25,
     "category": { "id": 1 }
 }
-
+```
 PUT http://localhost:8080/products/ID OF THE PRODUCT
 - Example:
+```json
 {   
     "stock": 20,
     "name": "Alfajor",
     "price": 900.0,
     "category": { "id": 1 }
 }
-
+```
 DELETE http://localhost:8080/products/ID OF THE PRODUCT
 
 
@@ -51,17 +53,19 @@ GET http://localhost:8080/categories
 
 POST 
 - Example JSON:
+```json
 {
     "name": "Snacks",
     "description": "Snack products"
 }
-
+```
 PUT http://localhost:8080/categories/ID OF THE CATEGORY
 -Example:
+```json
 {
     "name": "Sweets",
     "description": "Sweet products"
 }
-
+```
 DELETE http://localhost:8080/categories/ID OF THE CATEGORY
 
