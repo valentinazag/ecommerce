@@ -23,9 +23,9 @@ src/main/java/com/techlab/ecommerce/
 ## Endpoints
 ### Products
 
-GET http://localhost:8080/products
+`GET http://localhost:8080/products`
 
-POST http://localhost:8080/products
+`POST http://localhost:8080/products`
 - Example:
 ```json
 {
@@ -35,7 +35,7 @@ POST http://localhost:8080/products
     "category": { "id": 1 }
 }
 ```
-PUT http://localhost:8080/products/ID OF THE PRODUCT
+`PUT http://localhost:8080/products/{id}`
 - Example:
 ```json
 {   
@@ -45,13 +45,13 @@ PUT http://localhost:8080/products/ID OF THE PRODUCT
     "category": { "id": 1 }
 }
 ```
-DELETE http://localhost:8080/products/ID OF THE PRODUCT
+`DELETE http://localhost:8080/products/{id}`
 
 
 ### Cateogories
-GET http://localhost:8080/categories
+`GET http://localhost:8080/categories`
 
-POST 
+`POST http://localhost:8080/categories`
 - Example JSON:
 ```json
 {
@@ -59,7 +59,7 @@ POST
     "description": "Snack products"
 }
 ```
-PUT http://localhost:8080/categories/ID OF THE CATEGORY
+`PUT http://localhost:8080/categories/{id}`
 -Example:
 ```json
 {
@@ -67,5 +67,5 @@ PUT http://localhost:8080/categories/ID OF THE CATEGORY
     "description": "Sweet products"
 }
 ```
-DELETE http://localhost:8080/categories/ID OF THE CATEGORY
+`DELETE http://localhost:8080/categories/{id}`
 
